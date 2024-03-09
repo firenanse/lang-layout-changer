@@ -1,0 +1,42 @@
+{
+  "name": "lang-layout-changer",
+  "version": "1.0.0",
+  "description": "Simple JS library to convert text from one keyboard layout to another",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel switcher.js -o index.js",
+    "lint": "eslint switcher.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firenanse/lang-layout-changer.git"
+  },
+  "author": "firenanse",
+  "license": "MIT",
+  "keywords": [
+    "keyboard",
+    "keyboard layout",
+    "layout switch",
+    "russian",
+    "english",
+    "change"
+  ],
+  "dependencies": {
+    "request": "^2.70.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "babel-jest": "^24.9.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^6.2.2",
+    "eslint-config-standard": "^14.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.15.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^24.9.0"
+  }
+}
